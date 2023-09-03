@@ -42,6 +42,8 @@ body {
 }
 img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 /* button */
 .btn-primary{
@@ -559,12 +561,6 @@ header {
     width: 100;
 }
 /* .portfolio-inner-item .icon */
-.portfolio-inner-item img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 
 /* contact styles start */
 .contact-container .google-map{
