@@ -1,0 +1,294 @@
+/* small device responsive */
+@media screen and (max-width:576px) {
+    .container{
+        padding: 0px 0;
+    }
+    .edu-experience-container{
+        padding-right: 0;
+    }
+
+    /* header */
+    header .trigger {
+       display: block;
+    }
+    .left-part {
+        left: -400px;
+    }
+    .left-part.navMenu-show{
+        left: 0px;
+    
+    }
+    .right-part .profile-content {
+        gap: 0;
+        row-gap: 20px;
+        flex-direction: column;
+        height: auto;
+    }
+    .progress-container .title-margin {
+        margin: 50px 0;
+    }
+    .progress-container {
+        margin-bottom: 0px;
+    }
+    .portfolio-inner-content,
+    .short-info,
+    .progress-container,
+    .knowledge-container,
+    .edu-experience-container{
+        gap: 0px;
+    }
+    .portfolio-inner-content,
+    .short-info,
+    .progress-container,
+    .knowledge-container,
+    .edu-experience-container {
+        grid-template-columns: 1fr;
+    }
+
+    .theme-switcher {
+        position: relative;
+        background: var(--secondary-bg) transparent;
+    }
+
+    /* align item center */
+    .profile-icon {
+        text-align: center;
+    }
+
+    .right-part .profile-content .profile-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-part .profile-content .profile-picture {
+        width: 100%;
+        padding: 00px;
+    }
+
+    .right-part .profile-content .profile-info .profile-title {
+        font-size: 3rem;
+
+    }
+    /* about */
+    .inner-contents .inner-item .info-title {
+        font-size: 12px;
+    }
+    .inner-contents .inner-item button {
+        font-size: 12px;
+       
+    }
+    /* portfolio */
+    .portfolio-inner-item {
+        margin-bottom: 30px;
+    }
+    /*  horizontal section */
+.horizontal-full{
+    grid-column: span 1;
+}
+/* vertically */
+.vertically{
+    grid-row: span 1;
+}
+   
+    /* knowledge  container */
+
+    .knowledge-container, .knowledge-containers {
+        background: var(--secondary-bg) transparent;
+      
+    }
+
+}
+
+/* medium device responsive */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .container{
+        padding: 0px 0;
+    }
+    .edu-experience-container{
+        padding-right: 0;
+    }
+
+    /* header */
+    header .trigger {
+       display: block;
+    }
+    .left-part {
+        left: -400px;
+    }
+    .left-part.navMenu-show{
+        left: 0px;
+    
+    }
+    .right-part .profile-content {
+        gap: 0;
+        row-gap: 20px;
+        flex-direction: column;
+        height: auto;
+    }
+    .progress-container .title-margin {
+        margin: 50px 0;
+    }
+    .progress-container {
+        margin-bottom: 0px;
+    }
+    .portfolio-inner-content,
+    .short-info,
+    .progress-container,
+    .knowledge-container,
+    .edu-experience-container{
+        gap: 0px;
+    }
+    .portfolio-inner-content,
+    .short-info,
+    .progress-container,
+    .knowledge-container,
+    .edu-experience-container {
+        grid-template-columns: 1fr;
+    }
+
+    .theme-switcher {
+        position: relative;
+        background: var(--secondary-bg) transparent;
+    }
+
+    /* align item center */
+    .profile-icon {
+        text-align: center;
+    }
+
+    .right-part .profile-content .profile-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-part .profile-content .profile-picture {
+        width: 100%;
+        padding: 00px;
+    }
+
+    .right-part .profile-content .profile-info .profile-title {
+        font-size: 3rem;
+
+    }
+    /* about */
+    .inner-contents .inner-item .info-title {
+        font-size: 12px;
+    }
+    .inner-contents .inner-item button {
+        font-size: 12px;
+       
+    }
+    /* portfolio */
+    .portfolio-inner-item {
+        margin-bottom: 30px;
+    }
+    /*  horizontal section */
+.horizontal-full{
+    grid-column: span 1;
+}
+/* vertically */
+.vertically{
+    grid-row: span 1;
+}
+   
+    /* knowledge  container */
+
+    .knowledge-container, .knowledge-containers {
+        background: var(--secondary-bg) transparent;
+      
+    }
+
+}
+
+/* large device responsive */
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .container{
+        padding: 0px 0;
+    }
+    .edu-experience-container{
+        padding-right: 0;
+    }
+
+    /* header */
+    header .trigger {
+       display: block;
+    }
+    .left-part {
+        left: -400px;
+    }
+    .left-part.navMenu-show{
+        left: 0px;
+    
+    }
+    .right-part .profile-content {
+        gap: 0;
+        row-gap: 20px;
+        flex-direction: column;
+        height: auto;
+    }
+    .progress-container .title-margin {
+        margin: 50px 0;
+    }
+    .progress-container {
+        margin-bottom: 0px;
+    }
+    .short-info,
+    .progress-container,
+    .knowledge-container,
+    .edu-experience-container{
+        gap: 0px;
+    }
+
+    .short-info,
+    .progress-container,
+    .knowledge-container,
+    .edu-experience-container {
+        grid-template-columns: 1fr;
+    }
+
+    .theme-switcher {
+        position: relative;
+        background: var(--secondary-bg) transparent;
+    }
+
+    /* align item center */
+    .profile-icon {
+        text-align: center;
+    }
+
+    .right-part .profile-content .profile-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-part .profile-content .profile-picture {
+        width: 100%;
+        padding: 00px;
+    }
+
+    .right-part .profile-content .profile-info .profile-title {
+        font-size: 3rem;
+
+    }
+    /* about */
+    .inner-contents .inner-item .info-title {
+        font-size: 12px;
+    }
+    .inner-contents .inner-item button {
+        font-size: 12px;
+       
+    }
+    /* portfolio */
+    .portfolio-inner-item {
+        margin-bottom: 30px;
+    }
+
+   
+    /* knowledge  container */
+
+    .knowledge-container, .knowledge-containers {
+        background: var(--secondary-bg) transparent;
+      
+    }
+
+}
