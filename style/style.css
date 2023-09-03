@@ -269,6 +269,7 @@ header {
 }
 .about-title-picture .about-picture img{
     height: 100%;
+    width: 100%;
     object-fit: cover;
     
 }
@@ -588,8 +589,6 @@ header {
     padding: 10px 2%;
  
 }
-
-
 
 .hide{
     display: none;
