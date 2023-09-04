@@ -74,8 +74,17 @@
         font-size: 12px;
     }
     .inner-contents .inner-item button {
-        font-size: 12px;
+        font-size: 11px;
        
+    }
+    .inner-contents .inner-item button{
+
+        width: 100px;
+        
+        
+    }
+    .about-title-picture .about-picture {
+        height: 300px;
     }
     /* portfolio */
     .portfolio-inner-item {
