@@ -266,7 +266,7 @@ header {
 }
 /* right part about styles start */
 .about-title-picture .about-picture{
-    height: 600px;
+    height: auto;
     border-radius: 6px;
 }
 .about-title-picture .about-picture img{
