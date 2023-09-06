@@ -478,8 +478,8 @@ header {
 .portfolio-inner-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
-    column-gap: 50px;
-    row-gap: 50px;
+    column-gap: 20px;
+    row-gap: 20px;
     grid-auto-flow: dense;
 
 }
