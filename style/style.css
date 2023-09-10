@@ -42,7 +42,7 @@ body {
 }
 img {
     width: 100%;
-    height: 100%;
+    height: 100% !important;
     object-fit: cover;
 }
 /* button */
@@ -55,8 +55,9 @@ img {
     cursor:default;
 }
 .button-modified{
-    background: var(--primary-color);
+    background: var(--primary-color) !important;
     color: var(--primary-bg);
+    margin-top: 20px;
 }
 .primary-title{
     text-transform: capitalize;
@@ -250,7 +251,6 @@ header {
 /* social icon */
 .right-part .profile-content .profile-info .profile-icon a {
     font-size: 20px;
-    margin-right: 20px;
     color: var(--secondary-color);
     transition: 0.2s ease-in-out;
 }
@@ -395,8 +395,7 @@ header {
 /* Education and experience styles start */
 .edu-experience-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* gap: 100px; */
+    grid-template-columns: 1fr;
 }
 .inner-contents{
     position: relative;
@@ -431,7 +430,7 @@ header {
 }
 .inner-contents .inner-item button{
     all: unset;
-    margin-left: 5px;
+    margin-left: 50px;
     background: var(--optional-color);
     border-radius: 50px;
     padding: 7px 15px;
@@ -444,7 +443,7 @@ header {
     margin-bottom: 2.5em;
 }
 .inner-contents .inner-item .info{
-    margin-left: 10px;
+    margin-left: 50px;
 }
 .inner-contents .inner-item .info-title{
     font-size: 15px
