@@ -30,7 +30,6 @@
     .progress-container {
         margin-bottom: 0px;
     }
-    .portfolio-inner-content,
     .short-info,
     .progress-container,
     .knowledge-container,
@@ -85,10 +84,6 @@
     }
     .about-title-picture .about-picture {
         height: 300px;
-    }
-    /* portfolio */
-    .portfolio-inner-item {
-        margin-bottom: 30px;
     }
     /*  horizontal section */
 .horizontal-full{
