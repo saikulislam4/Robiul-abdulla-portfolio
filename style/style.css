@@ -29,6 +29,9 @@ p {
     margin-bottom: 20px;
     color: var(--description-color);
 }
+.description_update{
+    color: white;
+}
 
 body {
     background: var(--primary-bg);
@@ -321,10 +324,10 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .progress-container .title-margin{
-    margin: 100px 0;
+    margin: 50px 0;
 }
 .progress-container .skill-item{
     color: var(--description-color);
@@ -378,7 +381,7 @@ header {
 .knowledge-container{
     background: var(--secondary-bg);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 100px;
 }
 .knowledge-container li {
@@ -435,7 +438,7 @@ header {
     border-radius: 50px;
     padding: 7px 15px;
     color: var(--secondary-color);
-    width: 103px;
+    width: 15%;
     
     
 }
@@ -562,8 +565,17 @@ header {
 /* .portfolio-inner-item .icon */
 
 /* contact styles start */
+
+.Contact_email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
 .contact-container .google-map{
     width: 100%;
+    margin-top: 20px;
 }
 .contact-container .form-section{
     margin: 50px 0;

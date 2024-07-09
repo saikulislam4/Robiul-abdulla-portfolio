@@ -73,8 +73,17 @@
         font-size: 12px;
     }
     .inner-contents .inner-item button {
-        font-size: 11px;
+         font-size: 11px;
+         margin-left: 10px;
+         /* all: unset; */
        
+    }
+    .inner-contents .inner-item button {
+        all: none;
+
+    }
+    .inner-contents .inner-item .info {
+        margin-left: 10px;
     }
     .inner-contents .inner-item button{
 
@@ -93,6 +102,10 @@
 .vertically{
     grid-row: span 1;
 }
+
+.knowledge-containers {
+    padding: 10px 0;
+}
    
     /* knowledge  container */
 
@@ -100,6 +113,15 @@
         background: var(--secondary-bg) transparent;
       
     }
+    .map_modified{
+        height: 50%;
+    }
+    .contact-container textarea {
+        height: 110px;
+
+    }
+
+ 
 
 }
 
@@ -194,12 +216,23 @@
 .vertically{
     grid-row: span 1;
 }
-   
+.knowledge-containers {
+    padding: 20px 0;
+}
+ 
     /* knowledge  container */
 
     .knowledge-container, .knowledge-containers {
         background: var(--secondary-bg) transparent;
       
+    }
+
+    .map_modified{
+        height: 50%;
+    }
+    .contact-container textarea {
+        height: 150px;
+
     }
 
 }
@@ -278,10 +311,7 @@
     .inner-contents .inner-item .info-title {
         font-size: 12px;
     }
-    .inner-contents .inner-item button {
-        font-size: 12px;
-       
-    }
+ 
     /* portfolio */
     .portfolio-inner-item {
         margin-bottom: 30px;
@@ -293,6 +323,12 @@
     .knowledge-container, .knowledge-containers {
         background: var(--secondary-bg) transparent;
       
+    }
+
+
+    .contact-container textarea {
+        height: 180px;
+
     }
 
 }

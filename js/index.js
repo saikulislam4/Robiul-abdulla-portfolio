@@ -1,8 +1,8 @@
 // title animation using type js
 
 var typed = new Typed('#title', {
-    typeSpeed: 100,
-    backSpeed: 20,
+    typeSpeed: 120,
+    backSpeed: 30,
     loop: true,
   })
 
