@@ -39,7 +39,7 @@ ScrollReveal({
     delay:400
 
  });
-ScrollReveal().reveal('.profile-icon a', { delay: 400, origin: 'bottom', interval:100 });
+ScrollReveal().reveal('.profile-icon a', { delay: 300, origin: 'bottom', interval:60 });
 
 // AOS Animation
 
