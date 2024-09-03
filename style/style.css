@@ -322,8 +322,7 @@ header {
 
 .progress-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 100px;
+    grid-template-columns: repeat(3, 1fr);;
     margin-bottom: 50px;
 }
 .progress-container .title-margin{
@@ -351,7 +350,7 @@ header {
     left: 0;
     height: 100%;
     width: 0%;
-    background: var(--optional-color);
+    /* background: var(--optional-color); */
 }
 .skill-percent{
     color:var(--primary-color);
